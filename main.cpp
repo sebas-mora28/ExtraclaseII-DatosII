@@ -4,9 +4,8 @@
 #include "Adapter/BCRaccout/AdapterBCRaccount.h"
 #include "Adapter/CajeroAutomatico.h"
 
+
 int main() {
-
-
 
     //-----------------------------------------------------------------------------------------------------------
     //                                ADAPTER
