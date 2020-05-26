@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ExtraclaseII_DatosII"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExtraclaseII_DatosII">
+				<Option output="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/ExtraclaseII_DatosII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExtraclaseII_DatosII"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExtraclaseII_DatosII/fast">
+				<Option output="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/ExtraclaseII_DatosII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExtraclaseII_DatosII/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/HACKERPLACE/ExtraclaseII-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/BCRaccout/AdapterBCRaccount.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/BCRaccout/AdapterBCRaccount.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/BCRaccout/BCRaccount.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/BCRaccout/BCRaccount.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/BankAccount/BankAccount.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/CajeroAutomatico.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Adapter/CajeroAutomatico.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/Bank.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/Bank.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/CentralBank.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/CentralBank.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/Observable.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/Observable.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/Observer.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/Observer.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/SingletonBank.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/Observer/SingletonBank.h">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/main.cpp">
+			<Option target="ExtraclaseII_DatosII"/>
+		</Unit>
+		<Unit filename="/home/david/HACKERPLACE/ExtraclaseII-DatosII/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

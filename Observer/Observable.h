@@ -16,9 +16,9 @@ public:
 
     virtual void notify() = 0;
 
-    virtual void add() = 0;
+    virtual void add(Observer* bank) = 0;
 
-    virtual void remove() = 0;
+    virtual void remove(Observer* bank) = 0;
 
 };
 

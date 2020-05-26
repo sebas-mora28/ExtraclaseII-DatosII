@@ -4,6 +4,9 @@
 #include "Adapter/BCRaccout/AdapterBCRaccount.h"
 #include "Adapter/CajeroAutomatico.h"
 
+#include "Observer/CentralBank.h"
+#include "Observer/Bank.h"
+#include "Observer/SingletonBank.h"
 
 int main() {
 
@@ -24,12 +27,27 @@ int main() {
     CajeroAutomatico cajeroAutomatico(adapterBcRaccount);
 
 
-    
+    //-----------------------------------------------------------------------------------------------------------
+    //                                OBSERVER
+    std::cout << "\nPROBANDO OBSERVER\n" << std::endl;
+    //-----------------------------------------------------------------------------------------------------------
 
+    //Singleton (Not necessary)
+    auto* singletonBank = new SingletonBank();
+    //Observable
+    CentralBank* BC = singletonBank->getCentralBank();
 
+    //Observers
+    //Se crean los bancos y se les indica cual es el banco central.
+    Bank *BCR = new Bank(BC);
+    Bank *BN = new Bank(BC);
+    Bank *BAC = new Bank(BC);
 
+    //Se añaden los bancos al banco central.
+    BC->add(BCR);
+    BC->add(BN);
+    BC->add(BAC);
 
-
-
-
+    //Se cambia el tipo de cambio del dolar y se notifica de inmediato a todos los bancos del cambio y se actualizan.
+    BC->changeExchange(560.7);
 }
